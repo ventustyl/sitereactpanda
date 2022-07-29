@@ -19,8 +19,8 @@ const Navbar = ({ toggle}) => {
         <NavLink to='/PageProduits' >Nos produits</NavLink>
         <NavLink to='/PagePacks'>Nos packs</NavLink>
         <NavLink to='/PagePropos'>A propos</NavLink>
-        <NavLink to='/'>Forum</NavLink>
-        <NavLink to='/'>Contact</NavLink>
+        <NavLink to='/PageForum'>Forum</NavLink>
+        <NavLink to='/PageContact'>Contact</NavLink>
         </NavBloc>
         <NavIcons>
           <img src={Compte} width="30" height="30" alt="panda" path='/' />

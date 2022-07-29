@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { GlobalStyle } from '../../GlobalStyle';
-import ProposText from '../ProposText';
 import Navbar from '../Navbar';
 import Sidebar from '../Sidebar';
 import Footer from '../Footer'
-import HeroPropos from '../HeroPropos';
-function PagePropos() {
+import FormContact from '../FormContact';
+
+function PageContact() {
 
     const [isOpen, setIsOpen] = useState(true);
 
@@ -18,14 +18,9 @@ function PagePropos() {
             <GlobalStyle />
             <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
-            <ProposText />
-            <HeroPropos />
+          <FormContact />
     <Footer />
         </div>
     )
 }
-    export default PagePropos;
-
-
-
-
+    export default PageContact;

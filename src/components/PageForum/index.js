@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { GlobalStyle } from '../../GlobalStyle';
-import ProposText from '../ProposText';
+
 import Navbar from '../Navbar';
 import Sidebar from '../Sidebar';
 import Footer from '../Footer'
-import HeroPropos from '../HeroPropos';
-function PagePropos() {
+
+import ForumArticle from '../ForumArticle';
+import ForumMessenger from '../ForumMessenger'
+function PageForum() {
 
     const [isOpen, setIsOpen] = useState(true);
 
@@ -18,13 +20,13 @@ function PagePropos() {
             <GlobalStyle />
             <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
-            <ProposText />
-            <HeroPropos />
+          <ForumArticle />
+          <ForumMessenger />
     <Footer />
         </div>
     )
 }
-    export default PagePropos;
+    export default PageForum;
 
 
 

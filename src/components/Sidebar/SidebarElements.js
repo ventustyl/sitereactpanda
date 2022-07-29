@@ -6,7 +6,7 @@ export const SidebarContainer = styled.aside`
   position: fixed;
   z-index: 999;
   width: 100%;
-  height: 470px;
+  height: 480px;
   background: #CFB79B;
   display: grid;
   align-items: center;
@@ -40,7 +40,7 @@ export const SidebarMenu = styled.div`
   grid-template-rows: repeat(5, 80px);
   text-align: center;
   @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(5, 60px);
+    grid-template-rows: repeat(7, 60px);
   }
 `;
 
@@ -82,4 +82,8 @@ export const SidebarRoute = styled(Link)`
     color: #010606;
   }
 `;
+export const SideIcon = styled.div` 
+margin: auto;
+width: 50px;
+`
 
