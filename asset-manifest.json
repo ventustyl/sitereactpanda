@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sitereactpanda/static/css/main.8eb20739.css",
-    "main.js": "/sitereactpanda/static/js/main.05dc2b8b.js",
+    "main.js": "/sitereactpanda/static/js/main.75ea7623.js",
     "static/js/496.462e5448.chunk.js": "/sitereactpanda/static/js/496.462e5448.chunk.js",
     "static/media/banniere_contact.PNG": "/sitereactpanda/static/media/banniere_contact.4c9e40c16ab827add0ac.PNG",
     "static/media/carousel1.jpg": "/sitereactpanda/static/media/carousel1.3085ee6c90dda7c30d0d.jpg",
@@ -52,11 +52,11 @@
     "index.html": "/sitereactpanda/index.html",
     "static/media/logo1.svg": "/sitereactpanda/static/media/logo1.d7ff387f8fa61945e0e6395668b69938.svg",
     "main.8eb20739.css.map": "/sitereactpanda/static/css/main.8eb20739.css.map",
-    "main.05dc2b8b.js.map": "/sitereactpanda/static/js/main.05dc2b8b.js.map",
+    "main.75ea7623.js.map": "/sitereactpanda/static/js/main.75ea7623.js.map",
     "496.462e5448.chunk.js.map": "/sitereactpanda/static/js/496.462e5448.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8eb20739.css",
-    "static/js/main.05dc2b8b.js"
+    "static/js/main.75ea7623.js"
   ]
 }
