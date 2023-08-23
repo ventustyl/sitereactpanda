@@ -1,70 +1,51 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Projet Site Web React Panda
+![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/projet-12.webp)
 
-## Available Scripts
+Ce projet est un site web développé en utilisant React, une bibliothèque JavaScript populaire pour la création d'interfaces utilisateur interactives. Le site présente une boutique en ligne pour des produits liés au panda, avec différentes pages pour explorer les produits, les packs, les informations à propos, le forum et les options de contact.
 
-In the project directory, you can run:
+## Points Techniques
 
-### `npm start`
+1.  **Routing avec React Router Dom**
+    
+    Le fichier `App.js` définit la structure de navigation du site en utilisant la bibliothèque React Router Dom. Les différentes pages du site sont définies en tant que routes à l'intérieur de la balise `Routes`. Chaque route est associée à un chemin d'URL spécifique et à un composant React correspondant. Cela permet la navigation fluide entre les différentes sections du site.
+    
+2.  **Barre de Navigation Réactive**
+    
+    La barre de navigation en haut du site est gérée par le composant `Navbar.js`. Cette barre de navigation est conçue pour être réactive, s'adaptant à différents appareils et tailles d'écran. Les liens de navigation sont stylisés en utilisant `styled-components` pour maintenir la cohérence du design et offrir une expérience utilisateur agréable.
+    
+3.  **Stylisation avec Styled Components**
+    
+    Le dossier `NavbarElements.js` contient des composants stylisés qui définissent l'apparence visuelle de la barre de navigation. Cela inclut la mise en forme des liens de navigation, des icônes et d'autres éléments. L'utilisation de `styled-components` permet de maintenir le code CSS directement au sein des composants React, ce qui facilite la gestion et la modification du style.
+    
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation et Exécution
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Pour exécuter le projet en local, suivez les étapes ci-dessous :
 
-### `npm test`
+1.  Clonez ce dépôt sur votre machine locale.
+2.  Naviguez jusqu'au répertoire du projet dans votre terminal.
+3.  Exécutez `npm install` pour installer les dépendances.
+4.  Exécutez `npm start` pour lancer l'application en mode développement.
+5.  Ouvrez votre navigateur et accédez à `http://localhost:3000` pour voir le site en action.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Déploiement
 
-### `npm run build`
+Le site est déployé sur GitHub Pages à l'URL suivante : [https://ventustyl.github.io/sitereactpanda/](https://ventustyl.github.io/sitereactpanda/). Le processus de déploiement est automatisé grâce à la dépendance `gh-pages`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Dépendances Principales
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   React
+-   React Router Dom
+-   Styled Components
+-   React Icons
+-   React Responsive Carousel
+-   React Player
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Auteur
 
-### `npm run eject`
+Ce projet a été développé par [Votre Nom] et est disponible sous la licence [Licence].
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Pour toute question ou retour, n'hésitez pas à me contacter à [venturino83@gmail.com](mailto:venturino83@gmail.com).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Dernière mise à jour : 23 /08 / 2023
