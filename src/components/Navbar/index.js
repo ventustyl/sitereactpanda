@@ -20,7 +20,7 @@ const Navbar = ({ toggle }) => {
           <p></p>
           <Bars />
         </NavIcon>
-        <Img to="/" isOpen={false}>
+        <Img to="/sitereactpanda/" isOpen={false}>
           <img
             src={Image}
             width="30"
