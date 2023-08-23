@@ -1,6 +1,7 @@
 
 # Projet Site Web React Panda
-![enter image description here](https://lelabderic.fr/wp-content/uploads/2023/08/projet-12.webp)
+
+![Pandatea](https://lelabderic.fr/wp-content/uploads/2023/08/projet-12.webp)
 
 Ce projet est un site web développé en utilisant React, une bibliothèque JavaScript populaire pour la création d'interfaces utilisateur interactives. Le site présente une boutique en ligne pour des produits liés au panda, avec différentes pages pour explorer les produits, les packs, les informations à propos, le forum et les options de contact.
 
